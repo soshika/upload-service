@@ -1,0 +1,35 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Compiled Go files
+*.exe
+*.test
+*.prof
+
+# Compiled Golang protobuf files
+*.pb.go
+
+# Generated gRPC code
+**/*.pb.go
+**/*.pb.gw.go
+**/*.swagger.json
+
+# Dependency directories
+/vendor/
+/go.sum
+/go.mod
+
+# Build output
+/build/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
